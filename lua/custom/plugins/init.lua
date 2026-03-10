@@ -9,15 +9,13 @@ return {
     opts = {
       --
     },
-    config = function(_, opts)
-      require('tokyodark').setup(opts)
-      vim.cmd [[colorscheme tokyodark]]
-    end,
+    config = function(_, opts) require('tokyodark').setup(opts) end,
   },
   { 'rebelot/kanagawa.nvim' },
   { 'armannikoyan/rusty' },
   { 'rose-pine/nvim' },
   { 'sainnhe/gruvbox-material' },
   { 'bluz71/vim-moonfly-colors' },
+  { 'Ronxvier/ymir.nvim', lazy = false },
   -- THEMES END
 }
