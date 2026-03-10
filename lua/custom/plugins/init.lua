@@ -2,7 +2,29 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
+<<<<<<< HEAD
 
 ---@module 'lazy'
 ---@type LazySpec
 return {}
+=======
+return {
+  -- THEMES
+  {
+    'tiagovla/tokyodark.nvim',
+    opts = {
+      --
+    },
+    config = function(_, opts)
+      require('tokyodark').setup(opts)
+      vim.cmd [[colorscheme tokyodark]]
+    end,
+  },
+  { 'rebelot/kanagawa.nvim' },
+  { 'armannikoyan/rusty' },
+  { 'rose-pine/nvim' },
+  { 'sainnhe/gruvbox-material' },
+  { 'bluz71/vim-moonfly-colors' },
+  -- THEMES END
+}
+>>>>>>> 3824a2f (updated config)

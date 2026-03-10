@@ -5,9 +5,15 @@ nvim
 
 spell/
 
+<<<<<<< HEAD
 # You likely want to comment this, since it's recommended to track lazy-lock.json in version
 # control, see https://lazy.folke.io/usage/lockfile
 # For kickstart, it makes sense to leave it ignored.
 lazy-lock.json
+=======
+# You can uncomment this yourself if you want to lock the lazy-lock.json,
+# but for kickstart, it makes sense to leave it ignored.
+# lazy-lock.json
+>>>>>>> 3824a2f (updated config)
 
 .DS_Store
