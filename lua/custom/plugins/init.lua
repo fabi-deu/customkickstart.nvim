@@ -2,12 +2,6 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-<<<<<<< HEAD
-
----@module 'lazy'
----@type LazySpec
-return {}
-=======
 return {
   -- THEMES
   {
@@ -27,4 +21,3 @@ return {
   { 'bluz71/vim-moonfly-colors' },
   -- THEMES END
 }
->>>>>>> 3824a2f (updated config)
